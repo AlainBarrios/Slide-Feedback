@@ -1,0 +1,29 @@
+@import "lesshat";
+
+body{
+  background:#08222F;
+  maring: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: Helvetica, Arial;
+}
+
+ul{list-style:none; padding: 0;}
+
+h2{color:#BDE8FD; text-align: center;}
+
+#seccion-1{
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 1em;
+  width: 500px;
+  height: 9.5em;
+  border: 4px solid #BDE8FD;
+  color: #BDE8FD;
+}
+
+#seccion-1 ul li{
+  border-bottom: 1px solid #BDE8FD;
+  padding: 1em 0;
+}
